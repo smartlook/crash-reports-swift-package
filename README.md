@@ -1,4 +1,4 @@
-# Smartlook Analytics
+# Smartlook Crash Reports
 
 Welcome to the official Smartlook Crash Reports Swift package for the Smartlook Analytics iOS SDK.
 
