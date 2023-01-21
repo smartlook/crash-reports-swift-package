@@ -7,6 +7,7 @@ let package = Package(
     name: "Smartlook Crash Reports",
     platforms: [
         .iOS(.v13)
+        .tvOS(.v13)
     ],
     products: [
         .library(
@@ -18,8 +19,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "SmartlookCrashReports",
-            url: "https://sdk.smartlook.com/ios/smartlook-ios-crashreports-1.0.0.1.zip",
-            checksum: "906aa5691a9ab8ed30848228ce6535fd9e9396d2086b1644e26939c0403351a9"
+            url: "https://sdk.smartlook.com/ios/smartlook-ios-crashreports-1.0.0.2.zip",
+            checksum: "94844ae876fd02ac7363b0a5a024a64ee41374f0a289553fa793ed1fe00384bd"
         ),
     ]
 )
