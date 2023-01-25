@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Smartlook Crash Reports",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v13),
         .tvOS(.v13)
     ],
     products: [
